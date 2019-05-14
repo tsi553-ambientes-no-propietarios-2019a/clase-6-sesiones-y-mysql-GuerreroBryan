@@ -1,5 +1,4 @@
 <?php
-
 /**
 * Crear una base de datos en PHPMyAdmin: Para crear una base de datos procedemos a seleccionar la pestaña "Base de datos" e ingresamos 
 * como nombre "base1" y presionamos el botón crear.
@@ -14,3 +13,23 @@
 * En la página "modificar.php" presentar el formulario que permita modificar la información del alumno seleccionado.
 *
 */
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inicio</title>
+</head>
+<body>
+    <center>
+        <h1> BIENVENIDO</h1>
+        <h2>
+            <a href="nuevo.php"> Ingreso de un nuevo alumno</a><br>
+            <a href="lista.php"> Visualizar alumnos</a><br>
+            <a href="modificar.php"> Modificar alumnos</a><br>
+        </h2>
+        
+    </center>
+</body>
+</html>
